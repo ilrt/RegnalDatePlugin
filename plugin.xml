@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The plugin.dtd file is located in the OXYGEN_INSATALL_DIR/plugins directory -->
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+
+<plugin
+        id="ie.beyond2022.plugin.RegnalDate"
+        name="Regnal Date"
+        description="Markup a regnal date with a TEI/XML data element"
+        version="1.0.1"
+        vendor="Beyond 2022"
+        class="ie.beyond2022.oxygen.plugins.datesmarkup.RegnalDatePlugin"
+        classLoaderType="preferReferencedResources">
+    <runtime>
+        <librariesFolder name="lib/"/>
+    </runtime>
+    <extension type="selectionProcessor" class="ie.beyond2022.oxygen.plugins.datesmarkup.RegnalDatePluginExtension"
+               keyboardShortcut="ctrl+shift+R"/>
+</plugin>
