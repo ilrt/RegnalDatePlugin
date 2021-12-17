@@ -6,13 +6,13 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <oxygen.sdk.version>22.1.0.0</oxygen.sdk.version>
+        <oxygen.sdk.version>24.0.0.2</oxygen.sdk.version>
         <plugin.build.dirname>RegnalDatePlugin</plugin.build.dirname>
     </properties>
 
     <groupId>ie.beyond2022</groupId>
     <artifactId>RegnalDatePlugin</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>0.9-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <description>Plugins for oXygen editor to help with encoding texts.</description>
